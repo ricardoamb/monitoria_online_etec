@@ -1,0 +1,40 @@
+html, body
+    margin: 0
+    padding: 0
+    *
+        box-sizing: border-box
+
+    input:focus
+        outline: none !important
+        border: none
+
+nav.navbar
+    #logo
+        img
+            height: 60px
+            width: auto
+
+    #navbar-login
+        form
+            fieldset
+                margin-right: 10px
+                &:last-of-type
+                    margin-right: 0
+
+                input
+                    border: none
+                    border-radius: 3px
+                    padding: 2px 10px
+                    color: #FF5C5C
+                    max-width: 170px
+
+                button[type=submit]
+                    background: #FF5C5C
+                    border: none
+                    border-radius: 3px
+                    padding: 2px 20px
+                    color: white
+                    transition: background .15s ease-in
+
+                    &:hover
+                        background: darken(#FF5C5C, 5%)
