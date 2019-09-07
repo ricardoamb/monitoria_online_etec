@@ -59,3 +59,4 @@ CREATE TABLE IF NOT EXISTS `monitorias` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `url` (`url`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
